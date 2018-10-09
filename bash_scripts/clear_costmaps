@@ -1,0 +1,2 @@
+echo "Clearing costmaps"
+rosservice call /move_base/clear_costmaps "{}"

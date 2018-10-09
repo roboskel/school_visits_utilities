@@ -1,0 +1,1 @@
+ssh -t turtlebot@10.42.0.1 'roslaunch explore_lite explore.launch'

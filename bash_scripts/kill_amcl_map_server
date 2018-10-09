@@ -1,0 +1,2 @@
+echo "Killing amcl and map_server"
+rosnode kill /amcl /map_server
