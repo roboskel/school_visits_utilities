@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+    <node pkg="school_visits_utilities" type="behind_the_scenes.py" respawn="false" name="behind_the_scenes" output="screen">
+        <rosparam file="$(find school_visits_utilities)/config/behind_the_scenes.yaml" command="load" />
+    </node>
+</launch>

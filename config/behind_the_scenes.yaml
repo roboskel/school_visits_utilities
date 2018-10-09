@@ -1,0 +1,8 @@
+ip_addresses: ["10.42.0.1","10.42.0.1"]
+usernames: ["turtlebot", "indigo_bot"]
+rosnodes_to_kill: ["/amcl", "/map_server"]
+launch_packages: ["explore_lite", "turtlebot_radio_bringup", "robot_treasure_hunting"]
+launch_files: ["explore.launch", "radio_gmapping.launch", "robo_treasure.launch"]
+run_packages: []
+executables: []
+custom_commands: ["rostopic info /amcl", "rostopic info /map", "rosservice info /move_base/clear_costmaps"]
