@@ -1,1 +1,1 @@
-roslaunch turtlebot_navigation radio_gmapping.launch
+ssh -t turtlebot@10.42.0.1 'roslaunch turtlebot_navigation radio_gmapping.launch'
